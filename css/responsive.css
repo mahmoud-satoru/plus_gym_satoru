@@ -1,0 +1,569 @@
+/*350px*/
+@media (max-width: 1300px) {
+
+nav .ccontainer h2{
+    font-size: 35px;
+}
+
+nav .ccontainer button{
+    display: block;
+}
+
+nav .ccontainer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0px;
+    width: 65%;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    flex-direction: column;
+    top: 100px;
+    background-color: #000000;
+    border-radius: 20px;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+nav .ccontainer ul li{
+    margin-block: 15px;
+}
+
+nav button:focus+ul {
+    height: 440.4px;
+    width: 65%;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    flex-direction: column;
+    top: 100px;
+    background-color: #000000;
+    padding-block:20px;
+    border-radius: 20px;
+}
+
+.header .contaener h1{
+    font-size: 42px;
+}
+
+.header .contaener h3{
+    font-size: 27px;
+}
+
+.header .contaener button{
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.about .part_1,.about .part_2{
+    width: 100%;
+}
+
+.about .part_1{
+    padding-inline: 5px;
+    margin-bottom: 30px;
+}
+
+.about .part_1 h3{
+    font-size: 26px;
+}
+
+.about .part_1 p{
+    font-size: 16px;
+}
+
+.about .part_2 img{
+    width: 90%;
+}
+
+body .container{
+    width: 100%;
+    padding-inline: 20px;
+}
+
+body .container .box_of_text{
+    width: 100%;
+}
+
+body .container .box_of_text h3{
+    font-size: 28px;
+}
+
+body .container .box_of_icons{
+    width: 100%;
+}
+
+body .container #one{
+    order: 2;
+}
+
+body .container #two{
+    order: 1;
+}
+
+body .container #five{
+    order: 6;
+}
+
+body .container #six{
+    order: 5;
+}
+
+.Our_Clients{
+    padding: 50px 10px;
+}
+
+.Our_Clients .part{
+    width: 100%;
+    padding-inline: 10px;
+}
+
+.card_container .item{
+    width: 100%;
+}
+
+.contact{
+    padding-inline:10px ;
+}
+
+.contact .box{
+    width: 100%;
+}
+
+.Our_Gallery{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    padding-inline: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.Our_Gallery .col{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Our_Gallery .col .photo{
+    width: 100%;
+}
+
+.Our_Gallery .col .photo_1{
+    height: 600px;
+    background-color: #5f4646;
+}
+
+.Our_Gallery .col .photo_2{
+    height: 300px;
+    background-color: #ad3838;
+}
+
+.Our_Gallery .col .photo img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+form{
+    width: 100%;
+    padding-inline: 30px;
+}
+
+form input{
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 50px;
+    padding-inline: 20px;
+    background-color: var(--footer_bg_color);
+    position: relative;
+}
+
+footer .footer_box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+footer .our_posts .item{
+    width: 100%;
+    height: auto;
+    margin-bottom:16px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .our_posts .item img{
+    width: 90%;
+    height: auto;
+}
+
+}
+/*450px*/
+@media (min-width: 371px) and (max-width: 1300px) {
+    
+.header .contaener h1{
+    font-size: 50px;
+}
+
+.header .contaener h3{
+    font-size: 35px;
+}
+
+.about .part_1,.about .part_2{
+    width: 100%;
+}
+
+.about .part_1{
+    padding-inline: 5px;
+    margin-bottom: 30px;
+}
+
+.about .part_1 h3{
+    font-size: 26px;
+}
+
+.about .part_1 p{
+    font-size: 16px;
+}
+
+.about .part_2 img{
+    max-width: 412px;
+}
+
+body .container{
+    width: 100%;
+    padding-inline: 80px;
+}
+
+.Our_Clients .part{
+    width: 100%;
+    padding-inline: 50px;
+}
+
+.Our_Gallery{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    padding-inline: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.Our_Gallery .col{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Our_Gallery .col .photo{
+    width: 100%;
+}
+
+.Our_Gallery .col .photo_1{
+    height: 600px;
+    background-color: #5f4646;
+}
+
+.Our_Gallery .col .photo_2{
+    height: 300px;
+    background-color: #ad3838;
+}
+
+.Our_Gallery .col .photo img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+}
+
+/*650px*/
+@media (min-width: 577px) and (max-width: 1300px) {
+    
+nav .ccontainer h2{
+    font-size: 50px;
+}
+
+.header .contaener h1{
+    font-size: 55px;
+}
+
+.header .contaener h3{
+    font-size: 40px;
+}
+
+.about .part_1{
+    padding-inline: 50px;
+    margin-bottom: 30px;
+}
+
+body .container{
+    width: 100%;
+    padding-inline: 120px;
+}
+
+.Our_Clients .part{
+    width: 100%;
+    padding-inline: 150px;
+}
+
+form{
+    width: 100%;
+    padding-inline: 100px;
+}
+
+form input{
+    width: 100%;
+}
+
+footer{
+    padding-inline:70px ;
+}
+
+footer .our_posts .item{
+    width: 33.33333333%;
+    height: auto;
+    margin-bottom:16px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .our_posts .item img{
+    width: 90%;
+    height: auto;
+}
+
+.Our_Gallery{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    padding-inline: 100px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.Our_Gallery .col{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Our_Gallery .col .photo{
+    width: 100%;
+}
+
+.Our_Gallery .col .photo_1{
+    height: 600px;
+    background-color: #5f4646;
+}
+
+.Our_Gallery .col .photo_2{
+    height: 300px;
+    background-color: #ad3838;
+}
+
+.Our_Gallery .col .photo img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+}
+
+/*850px*/
+@media (min-width: 769px) and (max-width: 1300px) {
+    
+.header .contaener h1{
+    font-size: 60px;
+}
+
+.header .contaener button{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.about .part_1,.about .part_2{
+    width: 50%;
+}
+
+.about .part_1{
+    padding-inline: 40px;
+}
+
+.about .part_1 h3{
+    font-size: 35px;
+}
+
+.about .part_2 img{
+    max-width: 270px;
+}
+body .container{
+    width: 100%;
+    padding-inline: 50px;
+}
+
+body .container .box_of_text{
+    width: 70%;
+}
+
+body .container .box_of_text h3{
+    font-size: 32px;
+}
+
+body .container .box_of_icons{
+    width: 30%;
+}
+
+body .container #one{
+    order: 1;
+}
+body .container #two{
+    order: 2;
+}
+body .container #three{
+    order: 3;
+}
+body .container #four{
+    order: 4;
+}
+body .container #five{
+    order: 5;
+}
+body .container #six{
+    order: 6;
+}
+
+.Our_Clients{
+    padding: 50px 10px;
+}
+
+.Our_Clients .part{
+    width: 50%;
+    padding-inline: 30px;
+}
+
+.card_container .item{
+    width: 50%;
+}
+
+.contact{
+    padding-inline:50px ;
+}
+
+.contact .box{
+    width: 33.33333333%;
+}
+
+form{
+    width: 100%;
+    padding-inline: 80px;
+}
+
+form input{
+    width: 30%;
+}
+
+footer .footer_box{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: auto;
+}
+
+
+footer .our_posts .item img{
+    width: 90%;
+    height: auto;
+}
+
+.Our_Gallery .col{
+    width: 33.3333333%;
+
+}
+}
+
+/*1050px*/
+@media (min-width: 992px) and (max-width: 1300px) {
+
+.about .part_1{
+    padding-inline: 40px;
+}
+
+.about .part_2 img{
+    max-width: 365px;
+}
+
+.card_container .item{
+    width: 25%;
+    
+}
+
+.card_container .card{
+    width: 210px;
+    height: 480px;
+    padding-inline: 10px;
+}
+
+.card_container .card .icons{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.contact{
+    padding-inline:200px ;
+}
+
+form{
+    width: 100%;
+    padding-inline: 120px;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 50px;
+    padding-inline: 150px;
+    background-color: var(--footer_bg_color);
+    position: relative;
+}
+}
+
+/*1300px*/
+@media (min-width: 1181px) and (max-width: 1300px) {
+    
+.about .part_2 img{
+    width: 500px;
+}
+
+}
