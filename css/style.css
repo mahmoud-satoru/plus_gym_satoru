@@ -127,7 +127,6 @@ nav .ccontainer button i{
     transition-duration: 0.3s;
 }
 
-
 .header .contaener button:active{
     border: #fff 2px solid;
 }
@@ -277,8 +276,11 @@ body .container .box_of_text button:hover{
 }
 
 .Our_Clients .part .photo img{
-    width: 100%;
+     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 .card_container{
@@ -642,7 +644,6 @@ footer .last_part_finaly .icons_of_footer i:hover{
     color: var(--main_color);
     background-color: #fff;
 }
-
 
 .to_top i{
     position: absolute;
